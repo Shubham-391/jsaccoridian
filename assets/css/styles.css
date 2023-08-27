@@ -121,6 +121,7 @@
 
 .tablabel {
     padding: 17px 23px 18px 19px;
+    cursor: pointer;
 }
 
 .tab-content {
