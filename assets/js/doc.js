@@ -6,7 +6,7 @@ accordianItems.forEach(function (item) {
         accordianItems.forEach(function (item) { item.classList.remove("active") });
         if (!isItemOpen) //returns true
         {
-            item.classList.toggle("active");
+            item.classList.add("active");
         }
     })
 });

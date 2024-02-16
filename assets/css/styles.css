@@ -1,143 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* color */
 .grey {
-    color: #808080;
+  color: #808080;
 }
 
 .black {
-    color: black;
+  color: black;
 }
 
 .blue {
-    color: #128DFF;
+  color: #128dff;
 }
 
 /* font-family */
 .inter {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* font-size */
 .l {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .s {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* font-style */
 
 .f-style-normal {
-    font-style: normal;
+  font-style: normal;
 }
 
 /* font-weight */
 .fw-normal {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 /* line-height */
 .l-h-normal {
-    line-height: normal;
+  line-height: normal;
 }
 
 .l-h-150 {
-    line-height: 150%;
+  line-height: 150%;
 }
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .justify-content-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .justify-content-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .text-align-center {
-    text-align: center;
+  text-align: center;
 }
 
 .mb-43 {
-    margin-bottom: 43px;
+  margin-bottom: 43px;
 }
 
 .mt-18 {
-    margin-top: 18px;
+  margin-top: 18px;
 }
 
 .gap-10 {
-    gap: 10px;
+  gap: 10px;
 }
 
 .container {
-    max-width: 100%;
-    margin: 0 auto;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-
 .bg-grey {
-    background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .min-h-100 {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .accordian {
-    min-width: 540px;
-    padding: 24px 21px;
-    border-radius: 20px;
-    background: #FFF;
-    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+  min-width: 540px;
+  padding: 24px 21px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
 }
 
 .tab {
-    width: 498px;
-    height: 59px;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.10);
-    overflow: hidden;
+  width: 498px;
+  height: 59px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all linear 300ms;
+}
+
+.transition {
+  transition: all linear 300ms;
 }
 
 .tablabel {
-    padding: 17px 23px 18px 19px;
-    cursor: pointer;
+  padding: 17px 23px 18px 19px;
+  cursor: pointer;
 }
 
 .tab-content {
-    padding: 0 23px 13px 19px;
+  padding: 0 23px 13px 19px;
 }
 
 .active {
-    height: unset;
-    border-color: #128DFF;
+  height: 142px;
+  border-color: #128dff;
 }
 
 .accordian .tab.active .tablabel .group {
-    color: #000;
+  color: #000;
 }
 
 .accordian .tab.active .tablabel .arrow {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
-
